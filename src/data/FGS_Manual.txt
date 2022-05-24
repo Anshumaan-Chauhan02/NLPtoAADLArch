@@ -1,0 +1,13 @@
+The FGS_System consists of L_FGS, R_FGS, LR_Bus, RL_Bus, CLK_ONE, CLK_TWO, CLK_THREE, CLK_FOUR and environment.
+L_FGS supplies Left_Pilot_Flying_Side to LR_Bus.
+LR_Bus supplies Left_Pilot_Flying to R_FGS.
+R_FGS supplies Left_Pilot_Flying_Side to RL_Bus.
+RL_Bus supplies Left_Pilot_Flying to L_FGS.
+The L_FGS imports TS_Bool_L from environment.
+The L_FGS imports PS_Bool_L from environment.
+The R_FGS imports TS_Bool_L from environment.
+The R_FGS imports PS_Bool_L from environment.
+CLK_ONE supplies temporal value to L_FGS.
+CLK_TWO supplies temporal value to LR_Bus.
+CLK_THREE supplies temporal value to R_FGS.
+CLK_FOUR supplies temporal value to RL_Bus.

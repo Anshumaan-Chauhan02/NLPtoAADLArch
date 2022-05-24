@@ -1,0 +1,9 @@
+COFFEEMAKER consists ENV , COOKING_UNIT and POT.
+POT connected to COOKING_UNIT.
+COOKING_UNIT consists TANK , HEATING_UNIT and BREWING_UNIT.
+TANK connected to HEATING_UNIT.
+HEATING_UNIT connected to BREWING_UNIT.
+POT consists GLASSWARE , LID and HANDLE.
+LID connected to GLASSWARE.
+HANDLE connected to GLASSWARE.
+POT distributes Thermal energy to TANK and GLASSWARE.

@@ -1,0 +1,30 @@
+The handvac consists of the nozzle assembly, the filter assembly and the drive assembly.
+The nozzle assembly consists of the nozzle body, a nozzle extender, a valve assembly and a brush assembly.
+The valve assembly consists of a valve housing and a valve.
+The brush assembly consists of a rocker and the bristles.
+The nozzle extender is connected to the nozzle body.
+The valve is connected to the valve housing.
+The valve housing is connected to the nozzle body.
+The bristles are connected to the rocker.
+The rocker is connected to the nozzle body.
+The filter assembly consists of a canister, a grill filter and a HEPA assembly.
+The HEPA assembly consists of a filter holder and a filter insert.
+The filter insert is connected to the filter holder.
+The grill filter is connected to the filter holder.
+The filter holder is connected to the canister.
+The nozzle body is connected to the canister.
+The drive assembly consists of the drive housing, the intake grill, the handle assembly, the suction assembly, the discharge assembly and the electrical assembly.
+The handle assembly consists of the handle and the switch.
+The suction assembly consists of the motor and the impeller.
+The discharge assembly consists of the discharge filter and the discharge grill.
+The electrical assembly consists of the battery, the charging unit and the control unit.
+The intake grill is connected to the drive housing.
+The switch is connected to the handle.
+The impeller is connected to the motor.
+The motor is connected to the drive housing.
+The impeller is connected to the drive housing.
+The discharge filter is connected to the discharge grill.
+The discharge grill is connected to the drive housing.
+The battery is connected to the drive housing.
+The charging unit is connected to the battery.
+The control unit is connected to the battery.

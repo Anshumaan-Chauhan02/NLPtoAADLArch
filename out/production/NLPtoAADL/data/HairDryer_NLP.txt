@@ -1,0 +1,22 @@
+HAIRDRYER consists USER_INTERFACE , POWER_UNIT , PROPULSION_UNIT , HEATING_UNIT and ENVIRONMENT.
+USER_INTERFACE consists HANDLE and BODY.
+HEATING_UNIT consists HEATER_CORE , INSULATING_SLEEVE and NOZZLE.
+POWER_UNIT consists MAINS_CORD , POWER_SWITCH , JUNCTION_BOX , HEATING_WIRES and MOTOR_WIRES.
+BODY consists BARREL , INTAKE_GRILL and DISCHARGE_OPENING.
+NOZZLE consists CONDUIT and HEATER_CORE.
+PROPULSION_UNIT consists MOTOR and FAN.
+MAINS_CORD imports Electrical energy from ENVIRONMENT.
+MAINS_CORD transfers Electrical energy to POWER_SWITCH.
+POWER_SWITCH transfers Electrical energy to JUNCTION_BOX.
+JUNCTION_BOX distributes Electrical energy to HEATER_CORE and MOTOR_WIRES.
+FAN connected to MOTOR.
+INTAKE_GRILL guides air to FAN.
+MOTOR transfers Mechanical energy to FAN.
+FAN energizes air with Mechanical energy to form Flowing air.
+FAN guides Flowing air to HEATING_UNIT.
+HEATER_CORE converts Electrical energy to Thermal energy.
+HEATER_CORE energizes Flowing air with Thermal energy to form Hot Flowing air.
+CONDUIT supplies Hot Flowing air to DISCHARGE_OPENING.
+DISCHARGE_OPENING exports Hot Flowing air to ENVIRONMENT.
+HANDLE consists HAND_GRIP and POWER_BUTTON.
+POWER_BUTTON connected to POWER_SWITCH.

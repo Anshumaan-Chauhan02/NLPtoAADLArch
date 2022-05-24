@@ -1,0 +1,27 @@
+COFFEEMAKER consists COOKING_UNIT , ENVIRONMENT and POT.
+POT connected to COOKING_UNIT.
+COOKING_UNIT consists TANK , HEATING_UNIT and BREWING_UNIT.
+TANK connected to HEATING_UNIT.
+HEATING_UNIT connected to BREWING_UNIT.
+POT consists GLASSWARE , LID and HANDLE.
+LID connected to GLASSWARE.
+HANDLE connected to GLASSWARE.
+TANK imports water from ENVIRONMENT.
+TANK stores water.
+TANK supplies water to HEATING_UNIT.
+HEATING_UNIT consists HEATING_COIL and HOT_WATER_PIPE.
+HEATING_COIL connected to HOT_WATER_PIPE.
+HEATING_COIL imports Electricity energy from ENVIRONMENT.
+HEATING_COIL converts Electricity energy to Thermal energy.
+HEATING_COIL transfers Thermal energy to HOT_WATER_PIPE.
+HOT_WATER_PIPE energizes water with Thermal energy to form Hot water.
+BREWING_UNIT consists VERTICAL_PIPE , WATER_VALVE , SHOWER_HEAD , FILTER and FILTER_HOLDER.
+WATER_VALVE connected to VERTICAL_PIPE.
+SHOWER_HEAD connected to VERTICAL_PIPE.
+HOT_WATER_PIPE supplies Hot water to VERTICAL_PIPE.
+VERTICAL_PIPE supplies Hot water to SHOWER_HEAD.
+FILTER imports Ground coffee from ENVIRONMENT.
+SHOWER_HEAD supplies Hot water to FILTER.
+FILTER couples Hot water and Ground coffee.
+FILTER guides Liquid coffee to POT.
+POT stores Liquid coffee.
