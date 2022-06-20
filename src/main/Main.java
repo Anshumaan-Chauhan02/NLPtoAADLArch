@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class NewMain {
+public class Main {
     public static final String ANSI_RED = "\u001B[31m";
 
     public static void main(String[] args) {

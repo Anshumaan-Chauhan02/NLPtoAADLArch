@@ -1,4 +1,4 @@
-// Generated from .\New_grammar.g4 by ANTLR 4.9.2
+// Generated from New_grammar.g4 by ANTLR 4.9.2
 
     package lib;
 
