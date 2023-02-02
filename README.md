@@ -1,7 +1,7 @@
 <h2 align='center'><b> NLP to AADL Architecture </b></h2>
 
 <h4 align='center'> Project Description </h4> 
-This project is continuation of 'Toward Generating System Architecture and Formal Functional Description in the Architecture Analysis & Design Language (AADL) With Structured Natural Language'. Incorporation of more NLP in order to make sentences from English Language more acceptable (earlier too specific), assigning proper Electromechanical notations and flows, and much more. <br><br>
+This project is continuation of 'Toward Generating System Architecture and Formal Functional Description in the Architecture Analysis & Design Language (AADL) With Structured Natural Language'. Incorporation of more NLP in order to make sentences from English Language more acceptable (earlier too specific), assigning proper Electromechanical notations and flows, and much more is done. <br><br>
 
 ### Technical Skills 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
